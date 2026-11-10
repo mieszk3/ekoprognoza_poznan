@@ -1,6 +1,7 @@
 {
   "domain": "ekoprognoza_poznan",
   "name": "Ekoprognoza Poznań",
+  "categories": ["weather_alerts.air_quality_pollen", "local_services"],
   "codeowners": ["@mieszk3"],
   "config_flow": true,
   "documentation": "https://github.com/mieszk3/ekoprognoza_poznan",
