@@ -112,6 +112,9 @@ python3 -m venv .venv
 .venv/bin/pytest -q tests
 ```
 
+Ikona integracji (`brand/icon.png`, `brand/icon@2x.png`) jest generowana skryptem
+`scripts/generate_icon.py` (wymaga Pillow).
+
 Integracja odczytuje HTML strony miasta, więc zmiana jej układu może ją zepsuć. W takim
 przypadku encje przechodzą w stan niedostępny, a w logach pojawia się błąd
 `Unexpected page layout`. Zgłoszenia mile widziane w
