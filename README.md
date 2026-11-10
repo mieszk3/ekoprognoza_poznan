@@ -30,6 +30,10 @@ rozstrzyga komunikat na stronie miasta.
 
 ### Marketplace / HACS (repozytorium niestandardowe)
 
+[![Otwórz w Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mieszk3&repository=ekoprognoza_poznan&category=integration)
+
+Albo ręcznie:
+
 1. Home Assistant 2026.11 i nowsze: **Ustawienia → Marketplace → Dodaj z linku**.
    Starsze wersje: **HACS → menu ⋮ → Niestandardowe repozytoria**.
 2. Wklej `https://github.com/mieszk3/ekoprognoza_poznan`, kategoria **Integracja**.
@@ -42,7 +46,9 @@ Skopiuj folder `custom_components/ekoprognoza_poznan` do katalogu
 
 ### Konfiguracja
 
-**Ustawienia → Urządzenia i usługi → Dodaj integrację → Ekoprognoza Poznań.**
+[![Dodaj integrację](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=ekoprognoza_poznan)
+
+albo **Ustawienia → Urządzenia i usługi → Dodaj integrację → Ekoprognoza Poznań.**
 Integracja nie ma żadnych ustawień; można ją dodać tylko raz.
 
 ## Encje
