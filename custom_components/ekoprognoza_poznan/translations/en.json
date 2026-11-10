@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Adds the fireplace ban status and PM10 forecast for Poznań from poznan.pl/atmosfera."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Already configured. Only a single configuration possible."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "kominek_dzis": {
+        "name": "Fireplace today",
+        "state": {
+          "allowed": "Allowed",
+          "banned": "Banned"
+        }
+      },
+      "kominek_jutro": {
+        "name": "Fireplace tomorrow",
+        "state": {
+          "allowed": "Allowed",
+          "banned": "Banned"
+        }
+      },
+      "pm10_dzis": {
+        "name": "PM10 today"
+      },
+      "pm10_jutro": {
+        "name": "PM10 tomorrow"
+      },
+      "pm10_pojutrze": {
+        "name": "PM10 day after tomorrow"
+      }
+    }
+  }
+}

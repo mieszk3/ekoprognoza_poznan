@@ -1,0 +1,18 @@
+{
+  "entity": {
+    "sensor": {
+      "kominek_dzis": {
+        "default": "mdi:fireplace",
+        "state": {
+          "banned": "mdi:fireplace-off"
+        }
+      },
+      "kominek_jutro": {
+        "default": "mdi:fireplace",
+        "state": {
+          "banned": "mdi:fireplace-off"
+        }
+      }
+    }
+  }
+}

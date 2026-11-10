@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Dodaje status zakazu palenia w kominkach i prognozę PM10 dla Poznania z poznan.pl/atmosfera."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Integracja jest już skonfigurowana."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "kominek_dzis": {
+        "name": "Kominek dziś",
+        "state": {
+          "allowed": "Można palić",
+          "banned": "Zakaz palenia"
+        }
+      },
+      "kominek_jutro": {
+        "name": "Kominek jutro",
+        "state": {
+          "allowed": "Można palić",
+          "banned": "Zakaz palenia"
+        }
+      },
+      "pm10_dzis": {
+        "name": "PM10 dziś"
+      },
+      "pm10_jutro": {
+        "name": "PM10 jutro"
+      },
+      "pm10_pojutrze": {
+        "name": "PM10 pojutrze"
+      }
+    }
+  }
+}

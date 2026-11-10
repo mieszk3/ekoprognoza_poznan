@@ -1,0 +1,13 @@
+{
+  "domain": "ekoprognoza_poznan",
+  "name": "Ekoprognoza Poznań",
+  "codeowners": ["@mieszk3"],
+  "config_flow": true,
+  "documentation": "https://github.com/mieszk3/ekoprognoza_poznan",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/mieszk3/ekoprognoza_poznan/issues",
+  "requirements": ["beautifulsoup4>=4.12.0"],
+  "single_config_entry": true,
+  "version": "0.1.0"
+}
