@@ -28,11 +28,21 @@ rozstrzyga komunikat na stronie miasta.
 
 ## Instalacja
 
-### Marketplace / HACS (repozytorium niestandardowe)
+### Marketplace / HACS (zalecane)
+
+Integracja jest w domyślnym katalogu Marketplace i HACS.
 
 [![Otwórz w Home Assistant](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mieszk3&repository=ekoprognoza_poznan&category=integration)
 
-Albo ręcznie:
+1. Home Assistant 2026.11 i nowsze: **Ustawienia → Marketplace**.
+   Starsze wersje: **HACS** w menu bocznym.
+2. Wyszukaj „Ekoprognoza Poznań” i zainstaluj.
+3. Zrestartuj Home Assistant, jeśli Marketplace (HACS) o to poprosi.
+
+### Repozytorium niestandardowe
+
+Jeśli integracja nie pojawia się w wynikach wyszukiwania (np. katalog nie zdążył się
+jeszcze odświeżyć), dodaj repozytorium ręcznie:
 
 1. Home Assistant 2026.11 i nowsze: **Ustawienia → Marketplace → Dodaj z linku**.
    Starsze wersje: **HACS → menu ⋮ → Niestandardowe repozytoria**.
